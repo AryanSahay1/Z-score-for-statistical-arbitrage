@@ -62,10 +62,13 @@ Pandas & NumPy – for calculations and data handling
 Matplotlib – for plotting graphs and signals
 
 
-Z-SCORE CHART
-![image alt](https://raw.githubusercontent.com/AryanSahay1/Z-score-for-statistical-arbitrage/efd74d459bf1a90746e7fe4e400056a45a2feb89/download.png)
+
+
 
 📊 Explaining the Chart (AAPL & MSFT Z-Score Spread)
+![image alt](https://raw.githubusercontent.com/AryanSahay1/Z-score-for-statistical-arbitrage/efd74d459bf1a90746e7fe4e400056a45a2feb89/download.png)
+
+
 
 The chart you see is the Z-Score of the spread between Apple (AAPL) and Microsoft (MSFT) from 2021 to 2025.
 
