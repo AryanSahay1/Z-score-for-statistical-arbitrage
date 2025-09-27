@@ -61,13 +61,39 @@ Pandas & NumPy – for calculations and data handling
 
 Matplotlib – for plotting graphs and signals
 
-🚀 Future Plans
 
-Expand the strategy to multiple pairs at once
+Z-SCORE CHART
+![image alt](https://raw.githubusercontent.com/AryanSahay1/Z-score-for-statistical-arbitrage/efd74d459bf1a90746e7fe4e400056a45a2feb89/download.png)
 
-Add smarter models like Kalman Filters or Hidden Markov Models
+📊 Explaining the Chart (AAPL & MSFT Z-Score Spread)
 
-Connect it with broker APIs for live trading
+The chart you see is the Z-Score of the spread between Apple (AAPL) and Microsoft (MSFT) from 2021 to 2025.
+
+🔹 What the chart shows
+
+Blue Line (Z-Score) → This shows how far the price difference (spread) between AAPL and MSFT is from its historical average.
+
+Red Line (+2) → This is the upper threshold. If the blue line crosses above this, it means the spread is unusually high → signal to sell the expensive asset and buy the cheaper one.
+
+Green Line (–2) → This is the lower threshold. If the blue line goes below this, it means the spread is unusually low → signal to buy the cheap asset and sell the expensive one.
+
+🔹 How to read it
+
+Whenever the blue line is between –2 and +2 → the spread is normal, so no trade.
+
+Whenever the blue line goes above +2 → the spread is too wide → expect it to come back down (mean reversion).
+
+Whenever the blue line goes below –2 → the spread is too narrow/cheap → expect it to bounce back up.
+
+🔹 Why it matters
+
+This visualization helps traders see trading opportunities clearly:
+
+Peaks above the red line → potential short trades.
+
+Dips below the green line → potential long trades.
+
+The repeated up-and-down movements show that AAPL and MSFT often diverge but then revert back, which is exactly what the strategy is designed to capture.
 
 👤 Author: Aryan Sahay
 ⚠️ Disclaimer: This project is for research and educational purposes only. It is not financial advice.
